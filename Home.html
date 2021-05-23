@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>StackOverFlow</title>
+    <style>
+      .horizntal{
+        display:inline-block;
+      }
+
+     
+
+    #bannerText{
+      
+      color: white;
+    }
+
+    @media (max-width: 540px) { 
+      .g{
+        color: black;
+      }
+
+      .bgImage{
+     background-color: #3D7CB3;
+    width: 100%;
+    height: 90%;
+
+      }
+      .smShow{
+        float: right;
+        margin-right: -25px;
+      }
+      .smStyle{
+        margin-left: -25px;
+      }
+      .smHide{
+        display: none;
+      }
+      
+      .hi{
+        width:100%;
+        margin-left: 5px;
+        margin-top: 10px!important;
+
+      }
+
+      .navbar-nav{
+        position:absolute;
+        background-color: white;
+      
+      }
+      .imgLogo{
+        display: none;
+      }
+      .cardSM{
+        margin: 0 auto; /* Added */
+        float: none;
+        
+        margin-bottom: 10px;
+        margin-top: 20px;
+      }
+
+      .cardSM2{
+       margin: 0 auto; /* Added */
+        float: none; 
+        margin-top: 40px;
+
+      }
+
+      .textBanners{
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 10px;
+      }
+      .textBanners2{
+        margin-top: 5px;
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+     }
+
+     @media ( min-width: 541px) {
+     .bgImage{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    } 
+      .smShow{
+        display: none;
+        
+      }
+      .hell{
+        display: none;
+      }
+      .cardSM{
+        margin-left: 130px;
+        margin-bottom: 60px;
+        margin-top: 60px;
+
+      }
+
+      .imgLogo{
+         width: 150px;
+         height: 60px;
+      }
+
+      .cardSM2{
+        margin-left: 50px;
+        margin-top: 60px;
+      }
+
+      .textBanners{
+        margin-top: 20rem;
+        font-size: 35px;
+      }
+      .textBanners2{
+        margin-top:10px;
+        font-size: 35px;
+      }
+       .g{
+        color: #3D7CB3;
+      }
+     }
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid"   style="height: 30px; background-color: #333231;">
+      <div class="container">
+      <div class="row" style="margin-left: 5px;">
+       <div class="col-6 text-white horizntal smStyle" ><img class="mx-1" src="facebook.png" style="width: 21px; height: 21px;"><img class="mx-1" src="instagram.png" style="width: 21px; height: 21px;"><img src="twitter.png"  class="mx-1" style="width: 21px; height: 21px;"></div>
+       <div class="col-3 text-white horizntal smHide"><span class="mx-1">Sadek.kabalan01@gmail.com</span><img src="user.png" style="width: 21px; height: 21px;"></div>
+        <div class="col-3 text-white horizntal smHide"><span class="mx-1">Log Out</span><img src="exit.png" style="width: 21px; height: 21px;"></div>
+          <div class="col-6 horizntal"><div class="smShow"><img class="mx-2"src="exit.png" style="width: 21px; height: 21px;"><img src="user.png" style="width: 21px; height: 21px;"></div></div>
+      </div>
+      </div>
+    </div>
+
+    <div class="container" >
+      <div class="row">
+        <div class=" order-md-1 col-md-2"><img src="question.jpg" class="imgLogo"></div>
+        <div class="order-3  hell col-3"><button style="margin-top: 8px; height: 41px; background-color: #3D7CB3; color: white; border-radius: 10px; border: none; width: auto; font-size: 12px;" >Ask A Question</button></div>
+        <div class="col-md-4   order-md-2 order-2 col-7"><input class="form-control hi " style="margin-top: 15px;" type="search" placeholder="Search" aria-label="Search"></div>
+        <div class="col-md-6  order-1 order-md-3 col-2">
+          <nav class="navbar-light navbar-expand-sm  ">
+            <div style="height: 50px; margin-top: 10px;">
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="navbarResponsive" aria-expanded="false">
+              <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav">
+                   <a class="nav-item nav-link mx-2"  style="color: black; font-size: 16px; "href="#">Home</a>
+                   <a class="nav-item nav-link mx-2" style="color: black; font-size: 16px;"  href="#">Qustions</a>
+                   <a class="nav-item nav-link mx-2"  style="color: black; font-size: 16px;"href="#">Student's Journey</a>
+                   <a class="nav-item nav-link mx-2"  style="color: black; font-size: 16px;"href="#">About Us</a>
+                </div>
+              </div>
+            </div>
+         </nav>
+       </div>
+      </div>
+    </div>
+
+    <div class="bgImage" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 "><label id="bannerText" class="textBanners">Every <label class="g">Programing</label></label><br><label id="bannerText" class="textBanners2" > <label class="g">Problem</label> Has A Solution</label></div>
+          <div class="col-md-4 col-sm-12 "><div class="card align-items-center cardSM " style="width: 20rem; height: 400px; 
+               ">
+               <img src="stratgy.jpg" class="card-img" style="width: 110px; height: 94px; margin-top: 20px; ">
+                 <div class="card-body text-center">
+              <h5 class="card-title " style="text-decoration: bold; color: #3D7CB3; ">STRATEGY</h5>
+    <p class="card-text" style=" margin-left: 15px; margin-right: 15px;">Find the best answer to your technical question, help others answer theirs</p>
+    <a href="#" class="btn btn btn-primary btn-rounded " style="background-color:#3D7CB3; border-radius: 35px; margin-top: 10px; height: 40px; width: 220px;"  >JOIN OUR COMMUNITY</a>
+  </div>
+  <a href="#" class="link-primary" style=" color:#3D7CB3;  margin-bottom: 35px;">or search content</a>
+</div></div>
+          <div class="col-md-4 col-sm-12"><div class="card align-items-center cardSM2" style="width: 20rem;  height: 400px; margin-bottom: 60px; 
+              ">
+               <img src="team.jpg" class="card-img" style="width: 120px; height: 90px; margin-top: 20px; ">
+                 <div class="card-body text-center">
+              <h5 class="card-title " style="text-decoration: bold; color: #3D7CB3; ">CREATE A TEAM</h5>
+    <p class="card-text" style=" margin-left: 15px; margin-right: 15px;">Collaborate and share knowledge with a private group.</p>
+    <a href="#" class="btn btn btn-primary btn-rounded " style="background-color:#3D7CB3; border-radius: 35px; margin-top: 10px; height: 40px; width: 220px; margin-top: 35px;"  >CREATE A TEAM</a>
+  </div>
+  <a href="#" class="link-primary" style=" color:#3D7CB3;  margin-bottom: 35px;">or discover teams</a>
+</div></div>
+        </div>
+      </div>
+
+    </div>
+
+   <div class="container-fluid" style="background-color: #EDEDEB;">
+    <div class="container" >
+      <div class="row">
+      <div class="col-md-3 col-sm-12 text-sm-center"> 
+        <div class="card" style="height: 75%; width: 100%; margin-top: 20px; margin-bottom: 20px; 
+         ">
+        <div class="card-body text-center" >
+         <p style="text-decoration: bold; font-size: 35px;">4K+</p>
+         <p>Visitors Monthly</p>
+  </div>
+</div>
+
+      </div>
+      <div class="col-md-3 col-sm-12 text-sm-center">
+             <div class="card" style="height: 75%; width: 100%px; margin-top: 20px; margin-bottom: 20px;">
+        <div class="card-body text-center">
+         <p style="text-decoration: bold; font-size: 35px;">2K+</p>
+         <p>Questions Monthly</p>
+  </div>
+</div>
+      </div>
+      <div class="col-md-3 col-sm-12 text-sm-center">
+                <div class="card" style="height: 75%; width: 100%; margin-top: 20px; margin-bottom: 20px;">
+        <div class="card-body text-center">
+         <p style="text-decoration: bold; font-size: 35px;">1K+</p>
+         <p>Students talk about thier educational journies</p>
+  </div>
+</div>
+    </div>
+     <div class="col-md-3 col-sm-12 text-sm-center">
+                  <div class="card" style="height: 75%; width: 100%; margin-top: 20px; margin-bottom: 20px;">
+        <div class="card-body text-center">
+         <p style="text-decoration: bold; font-size: 35px;">500+</p>
+         <p>Active Teams</p>
+  </div>
+</div>
+</div>
+</div>
+
+    </div>
+</div>
+
+
+
+<div class="container-fluid" style="background-color:  #3D7CB3; ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="card" style="width: 22rem; height: 210px; background-color: transparent; margin-top: 50px; margin-bottom: 30px; border: none;">
+           <img src="quotation.png" class="card-img-top" style="width: 50px; height: 50px; margin-top: 10px; margin-left: 10px;">
+        <div class="card-body">
+           <p class="card-text" style="margin-top: 10px; color: white; font-size: 17px;">This site is very useful i can find multiple solutions for my problem</p>
+           <p class="card-text" style="margin-top: 10px; color: white;  font-size: 17px;">Sadek Kabalan - LU Student</p>
+           <hr style="border: none; background-color: black; height:2px; width: 75%; ">
+  </div>
+</div>
+
+      </div>
+      <div class="col-md-4 col-sm-12">
+                <div class="card" style="width: 22rem; height: 210px; background-color: transparent; margin-top: 50px; margin-bottom: 30px; border: none;">
+           <img src="quotation.png" class="card-img-top" style="width: 50px; height: 50px; margin-top: 10px; margin-left: 10px;">
+        <div class="card-body">
+           <p class="card-text" style="margin-top: 10px; color: white; font-size: 17px;">This site is very useful i can find multiple solutions for my problem</p>
+           <p class="card-text" style="margin-top: 10px; color: white;  font-size: 17px;">Sadek Kabalan - LU Student</p>
+           <hr style="border: none; background-color: black; height:2px; width: 75%; ">
+  </div>
+</div>
+
+
+
+      </div>
+      <div class="col-md-4 col-sm-12">
+                <div class="card" style="width: 22rem; height: 210px; background-color: transparent; margin-top: 50px; margin-bottom: 30px; border: none;">
+           <img src="quotation.png" class="card-img-top" style="width: 50px; height: 50px; margin-top: 10px; margin-left: 10px;">
+        <div class="card-body">
+           <p class="card-text" style="margin-top: 10px; color: white; font-size: 17px;">This site is very useful i can find multiple solutions for my problem</p>
+           <p class="card-text" style="margin-top: 10px; color: white;  font-size: 17px;">Sadek Kabalan - LU Student</p>
+           <hr style="border: none; background-color: black; height:2px; width: 75%; ">
+  </div>
+</div>
+      </div>
+
+
+<div class="row">
+  <div class="col">
+    <div class="text-center">
+      <button type="button" class="btn btn-light" style="margin-bottom: 30px;">Show More <i><img src="right.png" style="height: 17px; width: 17px;"></i></button>
+    </div>
+</div>
+
+  </div>
+</div>
+</div></div>
+
+<div class="container-fluid" style="background-color: #333231;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 text-white col-sm-12">
+        <div class="card" style="background-color: transparent; border: none;">
+          <div class="card-body">
+            <label style="font-size: 20px; border-bottom: 1px dashed white;">About Us</label>
+            <p style="padding-top: 5px;"> We are 2 LU Computer Sceince Students in Lebanon, we created this website to help the students and share thier knowlodges. </p>
+            <button type="button" class="btn btn-light" style="margin-bottom: 30px;">Show More <i><img src="right.png" style="height: 17px; width: 17px;"></i></button>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-3 text-white col-sm-12 ">
+          <div class="card" style="background-color: transparent; border: none;">
+          <div class="card-body">
+            <label style="font-size: 20px; border-bottom: 1px dashed white;">Quick Links</label>
+            <ul style=" list-style: none; padding:5px 0px 0px 0px;">
+            <li><a href="#" style="text-decoration: none; color: white;">Ask A Qustion</a></li>
+            <li><a href="#" style="text-decoration: none; color: white;">Questions</a></li>
+            <li><a href="#" style="text-decoration: none; color: white;">Students Journey</a></li>
+            <li><a href="#" style="text-decoration: none; color: white;">About Us</a></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 text-white col-sm-12 text-md-center text-sm-left">
+           <div class="card" style="background-color: transparent; border: none;">
+           <div class="card-body ">
+            <label style="font-size: 20px; border-bottom: 1px dashed white;">Follow Up!</label>
+            <br>
+            <div class="btn-group" role="group" style="padding-top: 5px; ">
+              <button type="button" class="btn"><i><img src="facebook.png"></i></button>
+              <button type="button" class="btn"><i><img src="instagram.png"></i></button>
+              <button type="button" class="btn"><i><img src="twitter.png"></i></button>
+           </div> 
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 text-white col-sm-12">
+        <div class="card" style="background-color: transparent; border: none;">
+           <div class="card-body">
+            <label style="font-size: 20px; border-bottom: 1px dashed white;">Contact Us!</label>
+            <br>
+            <label style="font-size: 15px; padding-top: 5px;">Send us any beficial feedback to improve our site !</label>
+            <br>
+            <button type="button" class="btn btn-light" style="margin-top: 5px; width: 75%;">Send Email</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+      <div class="row">
+        <div class="col">
+          <div class="text-md-center text-white text-sm-left mx-3" style="margin-bottom: 20px;">
+            <label>site design / logo © 2021 Sadek Kabalan / Mahdi Trabolsi</label>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  
+  </body>
+</html>
